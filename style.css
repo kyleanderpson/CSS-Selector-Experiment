@@ -1,0 +1,356 @@
+html {
+  background-color: #ffffff;
+}
+
+html:active {
+  background-color: #000000;
+}
+
+.centralContainer {
+  background-color: #000000;
+  position:fixed;
+  left: 20vw;
+  right: 20vw;
+  top: 20vh;
+  bottom: 20vh;
+}
+
+.centralContainer:active {
+  background-color: #ffffff;
+}
+
+.centralTopLeft {
+  background-color: #ff0000;
+  color: #ff0000;
+  position: fixed;
+  top: 30vh;
+  left: 30vw;
+  right: 50vw;
+  bottom: 50vh;
+}
+
+.centralTopLeft:hover {
+  background-color: #ff0000;
+  color: #ffffff;
+  position: fixed;
+  top: 22vh;
+  left: 22vw;
+  right: 50vw;
+  bottom: 50vh;
+}
+
+.centralTopLeft:active {
+  background-color: #000000;
+  color: #ff0000;
+  position: fixed;
+  top: 22vh;
+  left: 22vw;
+  right: 50vw;
+  bottom: 50vh;
+}
+
+.centralTopRight {
+  background-color: #00ff00;
+  color: #00ff00;
+  position: fixed;
+  top: 30vh;
+  left: 50vw;
+  right: 30vw;
+  bottom: 50vh;
+}
+
+.centralTopRight:hover {
+  background-color: #00ff00;
+  color: #000000;
+  position: fixed;
+  top: 22vh;
+  left: 50vw;
+  right: 22vw;
+  bottom: 50vh;
+}
+
+.centralTopRight:active {
+  background-color: #000000;
+  color: #000000;
+  position: fixed;
+  top: 22vh;
+  left: 50vw;
+  right: 22vw;
+  bottom: 50vh;
+}
+
+.centralBottomLeft {
+  background-color: #ffff00;
+  color: #ffff00;
+  position: fixed;
+  top: 50vh;
+  left: 30vw;
+  right: 50vw;
+  bottom: 30vh;
+}
+
+.centralBottomLeft:hover {
+  background-color: #ffff00;
+  color: #000000;
+  position: fixed;
+  top: 50vh;
+  left: 22vw;
+  right: 50vw;
+  bottom: 22vh;
+}
+
+.centralBottomLeft:active {
+  background-color: #000000;
+  color: #000000;
+  position: fixed;
+  top: 50vh;
+  left: 22vw;
+  right: 50vw;
+  bottom: 22vh;
+}
+
+.centralBottomRight {
+  background-color: #0000ff;
+  color: #0000ff;
+  position: fixed;
+  top: 50vh;
+  left: 50vw;
+  right: 30vw;
+  bottom: 30vh;
+}
+
+.centralBottomRight:hover {
+  background-color: #0000ff;
+  color: #ffffff;
+  position: fixed;
+  top: 50vh;
+  left: 50vw;
+  right: 22vw;
+  bottom: 22vh;
+}
+
+.centralBottomRight:active {
+  background-color: #000000;
+  color: #ffffff;
+  position: fixed;
+  top: 50vh;
+  left: 50vw;
+  right: 22vw;
+  bottom: 22vh;
+}
+
+.outerTopLeft{
+  background-color: #0000ff;
+  position: fixed;
+  top: 0vh;
+  bottom: 80vh;
+  left: 0vw;
+  right: 80vw;
+}
+
+.outerTopLeft:hover {
+  background-color: #0000ff;
+  position: fixed;
+  top: 0vh;
+  bottom: 20vh;
+  left: 0vw;
+  right: 20vw;
+}
+
+.outerTopLeft:active {
+  background-color: #000000;
+  position: fixed;
+  top: 0vh;
+  bottom: 20vh;
+  left: 0vw;
+  right: 20vw;
+}
+
+.outerTopRight {
+  background-color: #ffff00;
+  position: fixed;
+  top: 0vh;
+  bottom: 80vh;
+  right: 0vw;
+  left: 80vw;
+}
+
+.outerTopRight:hover {
+  background-color: #ffff00;
+  position: fixed;
+  top: 0vh;
+  bottom: 20vh;
+  right: 0vw;
+  left: 20vw;
+}
+
+.outerTopRight:active {
+  background-color: #000000;
+  position: fixed;
+  top: 0vh;
+  bottom: 20vh;
+  right: 0vw;
+  left: 20vw;
+}
+
+.outerBottomLeft {
+  background-color: #00ff00;
+  position: fixed;
+  top: 80vh;
+  bottom: 0vh;
+  right: 80vw;
+  left: 0vw;
+}
+
+.outerBottomLeft:hover {
+  background-color: #00ff00;
+  position: fixed;
+  top: 20vh;
+  bottom: 0vh;
+  right: 20vw;
+  left: 0vw;
+}
+
+.outerBottomLeft:active {
+  background-color: #000000;
+  position: fixed;
+  top: 20vh;
+  bottom: 0vh;
+  right: 20vw;
+  left: 0vw;
+}
+
+.outerBottomRight {
+  background-color: #ff0000;
+  position: fixed;
+  top: 80vh;
+  bottom: 0vh;
+  right: 0vw;
+  left: 80vw;
+}
+
+.outerBottomRight:hover {
+  background-color: #ff0000;
+  position: fixed;
+  top: 20vh;
+  bottom: 0vh;
+  right: 0vw;
+  left: 20vw;
+}
+
+.outerBottomRight:active {
+  background-color: #000000;
+  position: fixed;
+  top: 20vh;
+  bottom: 0vh;
+  right: 0vw;
+  left: 20vw;
+}
+
+.outerMiddleTop {
+  background-color: #ffffff;
+  position: fixed;
+  top: 0vh;
+  bottom: 80vh;
+  left: 20vw;
+  right: 20vw;
+}
+
+.outerMiddleTop:hover {
+  background-color: #000000;
+  position: fixed;
+  top: 0vh;
+  bottom: 80vh;
+  left: 20vw;
+  right: 20vw;
+}
+
+.outerMiddleTop:active {
+  background-color: #ffffff;
+  position: fixed;
+  top: 0vh;
+  bottom: 80vh;
+  left: 20vw;
+  right: 20vw;
+}
+
+.outerMiddleBottom {
+  background-color: #ffffff;
+  position: fixed;
+  top: 80vh;
+  bottom: 0vh;
+  left: 20vw;
+  right: 20vw;
+}
+
+.outerMiddleBottom:hover {
+  background-color: #000000;
+  position: fixed;
+  top: 80vh;
+  bottom: 0vh;
+  left: 20vw;
+  right: 20vw;
+}
+
+.outerMiddleBottom:active {
+  background-color: #ffffff;
+  position: fixed;
+  top: 80vh;
+  bottom: 0vh;
+  left: 20vw;
+  right: 20vw;
+}
+
+.outerLeft {
+  background-color: #ffffff;
+  position: fixed;
+  top: 20vh;
+  bottom: 20vh;
+  left: 0vw;
+  right: 80vw;
+}
+
+.outerLeft:hover {
+  background-color: #000000;
+  position: fixed;
+  top: 20vh;
+  bottom: 20vh;
+  left: 0vw;
+  right: 80vw;
+}
+
+.outerLeft:active {
+  background-color: #ffffff;
+  position: fixed;
+  top: 20vh;
+  bottom: 20vh;
+  left: 0vw;
+  right: 80vw;
+}
+
+.outerRight {
+  background-color: #ffffff;
+  position: fixed;
+  top: 20vh;
+  bottom: 20vh;
+  left: 80vw;
+  right: 0vw;
+}
+
+.outerRight:hover {
+  background-color: #000000;
+  position: fixed;
+  top: 20vh;
+  bottom: 20vh;
+  left: 80vw;
+  right: 0vw;
+}
+
+.outerRight:active {
+  background-color: #ffffff;
+  position: fixed;
+  top: 20vh;
+  bottom: 20vh;
+  left: 80vw;
+  right: 0vw;
+}
